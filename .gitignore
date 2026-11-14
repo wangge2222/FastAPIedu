@@ -1,8 +1,25 @@
+# IDE配置
 .idea/
+.vscode/
+
+# 虚拟环境
 venv/
+.venv/
+
+# 缓存字节码
 __pycache__/
-*.py
 *.pyc
+*.pyo
+*.pyd
+
+# 日志、环境变量
 *.log
 .env
+
+# 测试缓存
 .pytest_cache/
+
+# 打包、临时文件
+dist/
+build/
+*.egg-info
