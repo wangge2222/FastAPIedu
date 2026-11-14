@@ -1,5 +1,8 @@
 .idea/
 venv/
 __pycache__/
+*.py
 *.pyc
-.idea/workspace.xml
+*.log
+.env
+.pytest_cache/
